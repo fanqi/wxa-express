@@ -1,0 +1,10 @@
+.container{
+    padding: 20px;
+}
+.query-view{
+    margin-bottom: 10px;
+}
+.list-view{
+    margin-top: 20px;
+    height: 200px;
+}

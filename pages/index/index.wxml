@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="query-view">
+        <input placeholder="运单号" bindinput="input"/>
+        <button bindtap="queryExpressInfo">查询</button>
+    </view>
+    <scroll-view class="list-view" scroll-x="true" scroll-y="true">
+        <view wx:for="{{expressInfo.list}}">
+          {{item.datetime}} {{item.remark}} 
+        </view>
+    </scroll-view>
+</view>
